@@ -1,0 +1,22 @@
+email
+password
+msg1
+msg2
+
+// ログアウトが完了した」msg
+logout_msg(logout.php)
+
+// logout.phpにアドレスバーからの侵入
+unexpected_request_err(logout.php)
+
+// resign.phpにアドレスバーからの侵入
+unexpected_request_err(resign.php)
+
+// 一致しない err
+email_match_err(UserLogic.php)
+password_match_err(UserLogic.php)
+
+// sign-in userに関する情報
+login_user(UserLogic.php)
+
+msg_from_mypage
